@@ -360,8 +360,8 @@ const Home = () => {
                         value={values.fname}
                       />
                       {touched.fname && errors.fname ? (
-                            <p className="form-error">{errors.fname}</p>
-                          ) : null}
+                        <p className="form-error">{errors.fname}</p>
+                      ) : null}
                     </div>
                   </div>
                   <div className="col-lg-6">
@@ -379,8 +379,8 @@ const Home = () => {
                         value={values.lname}
                       />
                       {touched.lname && errors.lname ? (
-                            <p className="form-error">{errors.lname}</p>
-                          ) : null}
+                        <p className="form-error">{errors.lname}</p>
+                      ) : null}
                     </div>
                   </div>
                   <div className="col-lg-6">
@@ -398,8 +398,8 @@ const Home = () => {
                         value={values.email}
                       />
                       {touched.email && errors.email ? (
-                            <p className="form-error">{errors.email}</p>
-                          ) : null}
+                        <p className="form-error">{errors.email}</p>
+                      ) : null}
                     </div>
                   </div>
                   <div className="col-lg-6">
@@ -417,8 +417,8 @@ const Home = () => {
                         value={values.classes}
                       />
                       {touched.classes && errors.classes ? (
-                            <p className="form-error">{errors.classes}</p>
-                          ) : null}
+                        <p className="form-error">{errors.classes}</p>
+                      ) : null}
                     </div>
                   </div>
                   <div className="col-lg-6">
@@ -436,8 +436,8 @@ const Home = () => {
                         value={values.password}
                       />
                       {touched.password && errors.password ? (
-                            <p className="form-error">{errors.password}</p>
-                          ) : null}
+                        <p className="form-error">{errors.password}</p>
+                      ) : null}
                     </div>
                   </div>
                   <div className="col-lg-6">
@@ -455,8 +455,8 @@ const Home = () => {
                         value={values.cpassword}
                       />
                       {touched.cpassword && errors.cpassword ? (
-                            <p className="form-error">{errors.cpassword}</p>
-                          ) : null}
+                        <p className="form-error">{errors.cpassword}</p>
+                      ) : null}
                     </div>
                   </div>
 
