@@ -140,4 +140,18 @@ section {
 
 footer {
   background-color: #002d5b;
+}
+
+.form-section .form-group {
+  margin-bottom: 16px;
+}
+.form-section .form-group label-group {
+  margin-bottom: 4px;
+  display: inline-block;
+}
+.form-section .form-group .form-error {
+  color: red;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 4px 0;
 }/*# sourceMappingURL=index.css.map */
