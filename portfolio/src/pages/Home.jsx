@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../assets/components/Header'
-import Footer from '../assets/components/Footer'
-
+import Footer from '../assets/components/Footer'  
+import ImgSlider from '../assets/components/ImgSlider';
 
 const Home = () => {
   return (
@@ -166,12 +166,7 @@ const Home = () => {
 
       {/* Portfolio-slider section starts from here  */}
 
-      <section className="portfolio-slide-wrapper">
-        <div className="container">
-          <h2 className="com-title text-center">My Portfolio</h2>
-          <p className="com-para text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </section>
+      <ImgSlider/>
 
       {/* Portfolio-slider section end here  */}
 
@@ -213,7 +208,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* work_exp section end here  */}
+      {/* Client_review section end here  */}
 
 
       {/* Contact-wrapper section starts from here  */}
