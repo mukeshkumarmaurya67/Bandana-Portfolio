@@ -1,5 +1,6 @@
 section {
   padding: 50px 0;
+  color: red;
 }
 
 .main-title {
@@ -160,4 +161,19 @@ background-color: #fdf4f4;
 footer{
 
   background-color: #002d5b;
+}
+
+.form-section {
+  .form-group {
+    margin-bottom: 16px;
+    label-group {
+      margin-bottom: 4px;
+      display: inline-block;
+    }
+    .form-error{
+      color: red;font-size: 14px;
+      font-weight: 500;
+      margin: 4px 0;
+    }
+  }
 }
